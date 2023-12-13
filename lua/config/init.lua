@@ -1,8 +1,6 @@
--- Set your desired leader, if different from space.
-vim.g.mapleader = ' '
-vim.g.localmapleader = ' '
+vim.g.mapleader = '\\'
+vim.g.localmapleader = '\\'
 
--- This file does not need to be changed below this comment.
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({

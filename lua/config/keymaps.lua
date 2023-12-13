@@ -1,6 +1,3 @@
--- These are some generic keymaps that are independent of any plugins.
--- If you want to learn about these, you can learn about them from
--- ThePrimeagen.
 vim.keymap.set("n", "<leader>fs", vim.cmd.Ex)
 
 vim.keymap.set("v", "<C-J>", ":m '>+1<CR>gv=gv")

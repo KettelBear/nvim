@@ -1,7 +1,11 @@
 require('nvim-treesitter.configs').setup {
-  -- Treesitter strongly recommends these five. Add others as needed.
   ensure_installed = {
     "c",
+    "eex",
+    "elixir",
+    "erlang",
+    "heex",
+    "html",
     "lua",
     "vim",
     "vimdoc",

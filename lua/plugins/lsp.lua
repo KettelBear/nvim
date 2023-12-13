@@ -10,7 +10,6 @@ return {
       vim.g.lsp_zero_extend_lspconfig = 0
     end,
   },
-
   {
     'williamboman/mason.nvim',
     lazy = false,
@@ -67,10 +66,7 @@ return {
       end)
 
       require('mason-lspconfig').setup({
-        ensure_installed = {
-          -- Find your available LSP servers from Mason here:
-          -- https://github.com/williamboman/mason-lspconfig.nvim#available-lsp-servers
-        },
+        ensure_installed = { 'elp', 'lua_ls' },
         handlers = {
           lsp_zero.default_setup,
           lua_ls = function()
