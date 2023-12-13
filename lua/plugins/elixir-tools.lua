@@ -9,7 +9,7 @@ return {
     elixir.setup {
       nextls = {
         enable = true,
-        cmd = "/root/.local/share/nvim/mason/packages/nextls/next_ls_linux_amd64",
+        -- cmd = "",
         on_attach = function(client, bufnr)
           local opts = { buffer = true, noremap = true }
 
@@ -29,7 +29,7 @@ return {
       elixirls = { enable = false }
       --[[
         -- The rest of the elixirls config
-        cmd = "/root/.local/share/nvim/mason/packages/elixir-ls/language_server.sh",
+        cmd = "",
         settings = elixirls.settings({
           fetchDeps = true,
           dialyzerEnabled = true,
