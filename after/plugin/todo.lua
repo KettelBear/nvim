@@ -9,6 +9,6 @@ require('todo-comments').setup(
       NOTE = { icon = 'N' },
       TEST = { icon = 'T' }
     },
-    highlight = { multiline = false }
+    highlight = { multiline = true }
   }
 );

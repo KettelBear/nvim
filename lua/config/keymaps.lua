@@ -28,3 +28,5 @@ vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 vim.keymap.set("n", "<leader><CR>", "<cmd>noh<CR>")
+
+vim.keymap.set("n", "<leader>jf", "<cmd>%!jq '.'<CR>")
